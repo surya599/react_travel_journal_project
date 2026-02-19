@@ -30,9 +30,10 @@ header > img{
     height: 198px;
     overflow: hidden;
     border-radius: 7px;
-    flex-shrink: 0px;
+    flex-shrink: 0;
     margin-right: 20px;
-    
+    margin-bottom: 50px;
+
 }
 .main-image-container > img{
     width: 100%;
@@ -41,4 +42,8 @@ header > img{
 }
 .markerimage{
     width: 10px;
+}
+.entries{
+    width: 550px;
+    margin: 0 auto;
 }

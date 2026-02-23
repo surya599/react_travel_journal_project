@@ -7,16 +7,9 @@ export default function App()
         return (
             <Entry
             
-                img={entry.img}
-                title={entry.title}
-                country={entry.country}
-                locationlink={entry.locationlink}
-                dates={entry.dates}
-                text={entry.text}
+                    entry = {entry}
             />
-
         )
-
     })
     return(
         <>
